@@ -1,1 +1,27 @@
-# Decision-Tree-Classifier
+# Decision-Tree
+Using Python to implemente ID3 algorithm and pruning on training dataset and validation dataset
+
+File structure:
+1. myID3.py: this file contains all the code we need.
+2. Running_result: this file contains the result when I run myid3.py, including tree model representation and summary and results for id3 tree model, pruned id3 tree model, randomly attributes constructed tree model.
+3. training_set.csv: training dataset
+4. validation_set.csv: validation dataset
+5. test_set.csv: test dataset
+6. README.txt
+
+How to run code:
+Open terminal(in MAC or putty in windows) and set the path to where the submitted code is located at
+
+The program would ask users to 
+Please type your training set path: 
+Please type your validation set path: 
+Please type your test set path: 
+Please type your pruning factor: 
+
+Then users need to type the following respectively
+training_set.csv
+validation_set.csv
+test_set.csv
+0.2
+
+The pruning factor can be any number less than 1, larger than 0.
